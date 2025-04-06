@@ -17,8 +17,9 @@ def out(my_list = list):
 
 
 def main():
-    list_ = [1,2,3,4,5]
-    out(list_)
+    list_ = [1,2,3,4,5,5]
+
+    out(set(list_))
     pass
 
 if __name__ == "__main__":
